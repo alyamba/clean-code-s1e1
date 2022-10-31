@@ -10,16 +10,16 @@ body {
   display: block;
   text-align: right;
 }
-.header img {
+img {
   width: 100%;
 }
-.header .more-info {
+.more-info {
   font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
 
-  .aaa {
+  .header {
     text-align: center;
   }
   
@@ -94,7 +94,7 @@ label[for="new-task"] {
   display: block;
   margin: 0 0 20px;
 }
-input#new-task {
+#new-task {
   width: 318px;
 }
 
@@ -124,12 +124,12 @@ li > label {
 li > input[type="text"] {
   width: 226px;
 }
-button.delete__btn img {
+.remove__icon {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.delete__btn img:hover {
+.remove__icon:hover {
   transform: rotateZ(0);
 }
 
